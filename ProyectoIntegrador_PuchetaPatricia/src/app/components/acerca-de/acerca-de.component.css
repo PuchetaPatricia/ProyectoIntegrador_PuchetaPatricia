@@ -16,22 +16,22 @@ div{
 /* estilo foto perfil */
 @media (min-width: 576px){
     #fotoPerfil{
-        width: 15%;
+        width: 10%;
         position: absolute;
         border-radius: 25%;
         box-shadow: 3px 3px 3px grey;
         left: 3%;
-        top: 600px;
+        top: 450px;
     }
 }
 
 @media (max-width: 575px){
     #fotoPerfil{
-        width: 30%;
+        width: 20%;
         position:absolute;
         border-radius: 25%;
         box-shadow: 3px 3px 3px grey;
-        top: 600px;
-        left: 35%;
+        top: 450px;
+        left: 40%;
     }
 }
