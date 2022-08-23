@@ -3,8 +3,11 @@ package com.portfolio.PuchetaPatricia;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@SpringBootApplication @ComponentScan({ "com.portfolio.PuchetaPatricia.repository"})
+@SpringBootApplication
+@ComponentScan(basePackages= {"com.portfolio.PuchetaPatricia.Controller"})
+
 public class PuchetaPatriciaApplication {
 
 	public static void main(String[] args) {
