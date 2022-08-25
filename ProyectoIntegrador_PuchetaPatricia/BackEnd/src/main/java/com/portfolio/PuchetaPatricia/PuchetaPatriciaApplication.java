@@ -6,8 +6,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan(basePackages= {"com.portfolio.PuchetaPatricia.Controller"})
-
 public class PuchetaPatriciaApplication {
 
 	public static void main(String[] args) {
