@@ -8,7 +8,8 @@
             <a href=""><img src="../../../assets/1543322_network_social media_instagram_icon.png" class="img-fluid" id="instagram"></a>
             <a href=""><img src="../../../assets/1543325_facebook_social media_icon.png" class="img-fluid" id="facebook"></a>
             <a href=""><img src="../../../assets/1872635_social media_software_github_open source_developer_icon.png" class="img-fluid" id="github"></a> 
-            <button type="button" class="btn btn-outline-dark">Ingresar</button>
+            <button type="button" class="btn btn-outline-dark" (click)="login()" *ngIf="!isLogged">Ingresar</button>
+            <button type="button" class="btn btn-outline-dark" (click)="onLogOut()" *ngIf="isLogged">Cerrar Sesion</button>
         </div>
     </div>
 </div>
